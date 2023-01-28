@@ -1,0 +1,24 @@
+{
+    "name": "beastbytes/n6l-phone-number-data",
+    "type": "library",
+    "description": "Interface for retrieving national phone number data",
+    "keywords": [
+        "national phone number",
+        "national numbering plan"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "Chris Yates",
+        "email": "chris.l.yates@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BeastBytes\\PhoneNumber\\N6l\\": "src"
+        }
+    }
+}
