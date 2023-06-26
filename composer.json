@@ -7,10 +7,12 @@
         "national numbering plan"
     ],
     "license": "BSD-3-Clause",
-    "authors": [{
-        "name": "Chris Yates",
-        "email": "chris.l.yates@gmail.com"
-    }],
+    "authors": [
+        {
+            "name": "Chris Yates",
+            "email": "chris.l.yates@gmail.com"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
@@ -20,5 +22,11 @@
         "psr-4": {
             "BeastBytes\\PhoneNumber\\N6l\\": "src"
         }
+    },
+    "require-dev": {
+        "consolidation/robo": "^4.0"
+    },
+    "scripts": {
+        "robo": "robo"
     }
 }
